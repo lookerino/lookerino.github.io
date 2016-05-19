@@ -1,0 +1,188 @@
+/* Global attributes */
+
+@font-face {
+	font-family: "Halis-Rounded";
+	src: url("../fonts/Halis-Rounded-Bold.otf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Halis-Rounded";
+	src: url("../fonts/Halis-Rounded-Regular.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Halis-Rounded";
+	src: url("../fonts/Halis-Rounded-Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Halis-Rounded";
+	src: url("../fonts/Halis-Rounded-Thin.otf");
+	font-weight: 200;
+}
+
+body {
+	font-family: "Halis-Rounded", sans-serif;
+	color: #2a2a2a;
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+p.bold {
+	font-weight: 700;
+}
+
+input.email {
+	font-family: Halis-Rounded;
+	font-weight: 700;
+	font-size: 0.8em;
+	min-width: 50%;
+	letter-spacing: 0.15em;
+	padding: 1em 1em 1em 1em;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ebeaed;
+	outline-style: none;
+}
+
+input.submit {
+	font-family: Halis-Rounded;
+	font-weight: 700;
+	font-size: 0.8em;
+	color: white;
+	letter-spacing: 0.15em;
+	padding: 1em 2em 1em 2em;
+	text-transform: uppercase;
+	background-color: #2a2a2a;
+	border: 0;
+	outline-style: none;
+}
+
+input.submit:hover {
+	background-color: #4a4a4a;
+}
+
+/* A full screen container */
+
+.container-fullscreen {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Jumbotitle CSS */
+
+.jumbotitle {
+	text-align: center;
+	background-image: url("../images/jumbo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white;
+}
+
+.jumbotitle h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: white;
+	margin-bottom: 60px;
+}
+
+.jumbotitle p {
+	font-weight: 400;
+	font-size: 1em;
+	margin-bottom: 0;
+}
+
+.jumbocenter {
+	position: relative;
+	height: 100%;
+}
+
+/* Section CSS */
+
+.section {
+	text-align: center;
+	padding-top: 8em;
+	padding-bottom: 8em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+/* Values section CSS */
+
+.values-section {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.values-section h1 {
+	font-weight: 700;
+	font-size: 1.5em;
+	letter-spacing: 0.15em;
+	margin-bottom: 0.6em;
+}
+
+.values-section p {
+	font-weight: 400;
+	font-size: 1em;
+	color: #1a8084;
+}
+
+.black-gradient-bg {
+	background: -webkit-linear-gradient(left top, #000000, #1f1e1a); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #ac9581, #1f1e1a); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #ac9581, #1f1e1a); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #000000, #1f1e1a); /* Standard syntax */
+}
+
+.gray-bg {
+	background-color: #f7f7f7;
+}
+
+/* Miscellaneous */
+
+.right-align {
+	text-align: right;
+}
+
+.center-align {
+	text-align: center;
+}
+
+#white-button {
+	font-family: Halis-Rounded;
+	font-weight: 700;
+	font-size: 1em;
+	color: white;
+	letter-spacing: 0.15em;
+	padding: 1em 2em 1em 2em;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ebeaed;
+	outline-style: none;
+	text-decoration: none;
+}
+
+#white-button:hover {
+	color: #2a2a2a;
+	background-color: white;
+}
